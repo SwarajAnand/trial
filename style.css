@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("https://s3-alpha-sig.figma.com/img/3094/2a51/c7befc63c72da50ef3215fe433f6cdb5?Expires=1708300800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bDlvv6AbrGcurcxHvG~aF84r~QTx4TmiqPHE~cXasWBnwnVK8G1m6ZZgGm8I4JqMF2xNyWR7XH7IATdvVHfWlXb1ecf5Mw~vhyNPPoxrbkEMzj2DRSkNVxLVnw8a2XCjFg7CjpCIsTcd1OBqB2Wb69SEVg5kvn0RW65jwS4uwevCNQEqm5q-3~N9859lXU512VNNnAt7VdERzVuAC05D8TwB0MzgSRHl1ckkSYp0-zUS4kO~Dukfg0-~SoC5M1W4pJvDk6ec5AvmQXk8g4dy9Fl1cZxSJI6033ThwKfb-dmozaT1-Sd7gvRCeL5d4KMW~dT-KqxtSZrWEvEowrmX0g__");
+    
+}
+.topIcon{
+    height: 45px;
+    width: 45px;
+}
+.header{
+    margin-top: 35.59px;
+    display: flex;
+    height: 40px;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 12.23px 9.61px 12.8px;
+}
+
+.activeIcon{
+    color: red;
+}
+
+.footer{
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightFooter{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+.demo{
+    padding-left: 30px;
+}
+
+.component{
+    border: 2px solid red;
+    background-color: red;
+}
